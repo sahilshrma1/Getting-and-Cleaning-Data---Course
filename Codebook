@@ -1,0 +1,21 @@
+---
+title: "Course Assignment"
+author: "Sahil Sharma"
+date: "05-07-2022"
+output:
+  html_document:
+    keep_md: yes
+---
+
+## Project Description
+This project was created for the partial fullfill ment and assignment requirement of the course "Getting and Cleaning Data". 
+
+
+
+## Guide to Variables
+
+Column 1 (Variable) contains all the variables that calculates mean() and std() in the main data set
+
+Column 2 to Column 7 (Activities) contains the averages for each variable. Activities are mentioned in the variable name. 
+
+Column 8 to Column 38 (Subjects) contains the averages for each 30 subjects. The subjects are mentioned by number in the variable name. 
