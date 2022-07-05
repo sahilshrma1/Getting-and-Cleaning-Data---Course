@@ -71,7 +71,7 @@ library(readr)
               
               data_m_std$Label_Code
  
-              # c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING")
+             
                            
 #############
 #### 4 ###### Appropriately label the data set with descriptive variable names 
@@ -92,11 +92,11 @@ library(readr)
               
               table(is.na(data_m_std))
               
-              # Create a second, independent tidy data set
+        # Create a second, independent tidy data set
               
               second_data <- data_m_std
               
-              # Average for each variable
+        # Average for each variable
               
               walking <- second_data[second_data$Label_Code == "WALKING",]
               walking_avg <- sapply(walking[,2:81], mean)
@@ -232,5 +232,7 @@ library(readr)
                          sub_1_avg,sub_2_avg,sub_3_avg,sub_4_avg,sub_5_avg,sub_6_avg,sub_7_avg,sub_8_avg,sub_9_avg,sub_10_avg,
                          sub_11_avg,sub_12_avg,sub_13_avg,sub_14_avg,sub_15_avg,sub_16_avg,sub_17_avg,sub_18_avg,sub_19_avg,sub_20_avg,
                          sub_21_avg,sub_22_avg,sub_23_avg,sub_24_avg,sub_25_avg,sub_26_avg,sub_27_avg,sub_28_avg,sub_29_avg,sub_30_avg))
+
+
           
          
